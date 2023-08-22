@@ -1,0 +1,24 @@
+body {
+    background-image: url("https://s3-us-west-2.amazonaws.com/courses-images-archive-read-only/wp-content/uploads/sites/1511/2016/05/25200412/14951665915_eefe941b11_k.jpg")
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.card {
+    border: solid;
+    border-color: rgba(0, 0, 0, 0.9);
+    border-radius: 25px;
+    background-color: rgba(245, 245, 245, 0.8);
+    padding: 25px;
+    box-shadow: 5px 10px 3px 3px rgba(209, 209, 209, 0.4);
+}
+
+h1 {
+    color: black;
+    text-align: center;
+}
